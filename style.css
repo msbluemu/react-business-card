@@ -1,0 +1,87 @@
+
+
+.body{
+    width: 550px;
+    height: 868px;
+    background-color: #23252C;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+main {
+    width: 317px;
+    height: 716px;
+    text-align: center;
+    background-color: #F5F5F5;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+img {
+    width: 317px;
+    height: 317px;
+    object-fit: cover;
+}
+
+.name {
+    font-size: 25px;
+    color: #2B283A;
+}
+
+.position {
+    font-size: 12px;
+    color: #F47D27;
+}
+
+.button {
+    width: 247px;
+    padding: 5px;
+    height: auto;
+    font-size: 14px;
+    border-radius: 5px;
+    border: solid #D1D5DB;
+    background-color: white;
+}
+
+.about-title, .interests-title {
+    font-size: 16px;
+    color: #2B283A;
+    text-align: left;
+}
+
+.about-content, .interests-content {
+    font-size: 10px;
+    color: #4A4E74;
+    text-align: justify;
+}
+
+.main-content {
+  padding: 10px;
+  width: 247px;
+  height: 201px;
+  overflow-wrap: break-word; /* To break long words */
+  word-wrap: break-word; 
+  margin:auto;
+}
+
+.twitter, .facebook,.instagram,.linkedin,.github{
+    width: 25px;
+    height: 25px;
+    color: red;
+}
+
+
+.icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.footer {
+    background-color: #D5D4D8;
+    width: 317px;
+    height: 64px;
+}
